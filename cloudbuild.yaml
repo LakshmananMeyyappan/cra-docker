@@ -6,7 +6,7 @@ steps:
 - name: 'gcr.io/cloud-builders/kubectl'
   args: ['set', 'image', 'deployment/demo-app', 'demo-app=gcr.io/$PROJECT_ID/cra-docker:$SHORT_SHA']
   env:
-  - 'CLOUDSDK_COMPUTE_ZONE=us-central1-a'
+  - 'CLOUDSDK_COMPUTE_ZONE=us-east1-b'
   - 'CLOUDSDK_CONTAINER_CLUSTER=cra-docker'
 images:
 - 'gcr.io/$PROJECT_ID/cra-docker'
