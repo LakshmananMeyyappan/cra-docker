@@ -9,7 +9,7 @@ class App extends Component {
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to React krossark Dev Release 1 Branch</h2>          
-          <h2>Hot fix 1</h2>
+          <h2>Release 1 Feature 1</h2>
         </div>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
